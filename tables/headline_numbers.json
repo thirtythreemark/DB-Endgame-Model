@@ -1,0 +1,123 @@
+{
+ "Technical provisions": {
+  "liab_m": 316.5,
+  "dur": 14.0,
+  "vs_ld": -0.7
+ },
+ "Low dependency": {
+  "liab_m": 318.7,
+  "dur": 13.9,
+  "vs_ld": 0.0
+ },
+ "Buy-out (proxy)": {
+  "liab_m": 356.2,
+  "dur": 14.6,
+  "vs_ld": 11.8
+ },
+ "start_funding": {
+  "tp": 1.05,
+  "ld": 1.043,
+  "bo": 0.933,
+  "assets_m": 332.4
+ },
+ "funding_yr20": {
+  "tp": {
+   "median": 1.393,
+   "p5": 0.927,
+   "p95": 2.661
+  },
+  "ld": {
+   "median": 1.38,
+   "p5": 0.919,
+   "p95": 2.636
+  },
+  "bo": {
+   "median": 1.254,
+   "p5": 0.835,
+   "p95": 2.421
+  }
+ },
+ "routeA": {
+  "median": 4.0,
+  "p25": 2.0,
+  "p75": 8.0,
+  "p_within_5": 0.519,
+  "p_within_10": 0.712,
+  "p_within_15": 0.808,
+  "p_never_20": 0.138,
+  "start_bo_funding": 0.933
+ },
+ "routeB": {
+  "expected_surplus": 70003190.7,
+  "median_surplus": 63730010.8,
+  "p_below_ld": 1.0,
+  "worst_5pct_funding": 0.8,
+  "L_ld0": 318670760.5,
+  "expected_surplus_m": 70.0
+ },
+ "frontier": [
+  {
+   "growth_weight": 0.05,
+   "expected_surplus_m": 24.61,
+   "prob_below_ld": 0.875,
+   "prob_below_95_ld": 0.398,
+   "worst_5pct_funding": 0.907,
+   "median_time_to_buyout": 5.0,
+   "p_buyout_10": 0.534
+  },
+  {
+   "growth_weight": 0.1,
+   "expected_surplus_m": 33.308,
+   "prob_below_ld": 0.884,
+   "prob_below_95_ld": 0.416,
+   "worst_5pct_funding": 0.898,
+   "median_time_to_buyout": 5.0,
+   "p_buyout_10": 0.587
+  },
+  {
+   "growth_weight": 0.15,
+   "expected_surplus_m": 44.291,
+   "prob_below_ld": 0.919,
+   "prob_below_95_ld": 0.483,
+   "worst_5pct_funding": 0.883,
+   "median_time_to_buyout": 5.0,
+   "p_buyout_10": 0.638
+  },
+  {
+   "growth_weight": 0.2,
+   "expected_surplus_m": 56.716,
+   "prob_below_ld": 0.948,
+   "prob_below_95_ld": 0.575,
+   "worst_5pct_funding": 0.862,
+   "median_time_to_buyout": 5.0,
+   "p_buyout_10": 0.678
+  },
+  {
+   "growth_weight": 0.25,
+   "expected_surplus_m": 70.003,
+   "prob_below_ld": 0.973,
+   "prob_below_95_ld": 0.673,
+   "worst_5pct_funding": 0.841,
+   "median_time_to_buyout": 4.0,
+   "p_buyout_10": 0.712
+  },
+  {
+   "growth_weight": 0.3,
+   "expected_surplus_m": 83.891,
+   "prob_below_ld": 0.985,
+   "prob_below_95_ld": 0.755,
+   "worst_5pct_funding": 0.817,
+   "median_time_to_buyout": 4.0,
+   "p_buyout_10": 0.736
+  },
+  {
+   "growth_weight": 0.4,
+   "expected_surplus_m": 112.615,
+   "prob_below_ld": 0.995,
+   "prob_below_95_ld": 0.876,
+   "worst_5pct_funding": 0.767,
+   "median_time_to_buyout": 3.0,
+   "p_buyout_10": 0.778
+  }
+ ]
+}
